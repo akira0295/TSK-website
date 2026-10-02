@@ -242,7 +242,7 @@ function HomePage() {
 
       <footer className="border-t border-primary/15 bg-parchment-deep pt-16">
         <div className="mx-auto grid max-w-7xl gap-12 px-5 pb-14 md:grid-cols-3 lg:px-8"><BrandMark /><div><p className="mb-5 text-[10px] font-bold uppercase tracking-[0.22em] text-primary">Navigate</p>{navigation.map(([label, id]) => <a key={id} href={`#${id}`} className="mb-3 block w-fit text-sm text-muted-foreground hover:text-primary">{label}</a>)}</div><div><p className="mb-5 text-[10px] font-bold uppercase tracking-[0.22em] text-primary">Contact</p><p className="max-w-sm text-sm leading-7 text-muted-foreground">Gate 7, Sattva Knowledge Park, Silpa Gram Craft Village, HITEC City, Hyderabad, Telangana 500084</p><a className="mt-4 inline-block text-sm font-semibold text-primary" href="tel:+918988358888">089883 58888</a></div></div>
-        <div className="border-t border-primary/15 px-5 py-5 text-center text-[10px] uppercase tracking-[0.16em] text-muted-foreground">Website concept by Vaishnavi</div>
+        <div className="border-t border-primary/15 px-5 py-5 text-center text-[10px] uppercase tracking-[0.16em] text-muted-foreground">Website concept prepared for Telangana Spice Kitchen by Vaishnavi</div>
       </footer>
 
       {viewerOpen && <MenuViewer onClose={() => setViewerOpen(false)} />}
